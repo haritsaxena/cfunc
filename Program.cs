@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using cfunc.ch1;
 
 namespace cfunc
 {
@@ -7,6 +9,8 @@ namespace cfunc
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Funcfactories.Run();
         }
     }
 }
+
