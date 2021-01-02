@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Linq;
 using cfunc.ch1;
+using cfunc.ch2;
 
 namespace cfunc
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Funcfactories.Run();
+            //Funcfactories.Run();
+            Bmi.Run();
         }
     }
 }

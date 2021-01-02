@@ -15,7 +15,7 @@ namespace cfunc.ch1
         static Func<CoffeeGround, Espresso> brewCoffee = coffeeGround => new Espresso(coffeeGround);
 
 
-        public static void main()
+        public static void Run()
         {
             CoffeeBeans coffeeBeans = new CoffeeBeans();
             
