@@ -2,6 +2,7 @@
 using System.Linq;
 using cfunc.ch1;
 using cfunc.ch2;
+using cfunc.ch3;
 
 namespace cfunc
 {
@@ -9,9 +10,7 @@ namespace cfunc
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //Funcfactories.Run();
-            Bmi.Run();
+            DayWeek.Run();
         }
     }
 }
