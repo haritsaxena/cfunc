@@ -10,7 +10,7 @@ namespace cfunc
     {
         public static void Main(string[] args)
         {
-            DowEnum.Run();
+            ListLookup.Run();
         }
     }
 }
