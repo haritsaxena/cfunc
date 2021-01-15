@@ -1,7 +1,7 @@
 using System;
 namespace cfunc.ch1
 {
-    public static class F
+    public static class Disposable
     {
         public static R Using<TDisp, R>(TDisp disposable, Func<TDisp, R> f) where TDisp : IDisposable
         {
